@@ -1,0 +1,2411 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-10-08 17:20+0700\n"
+"PO-Revision-Date: 2015-10-08 17:20+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: assets/libraries/fuelux/jquery-ui.min.js:10
+msgid "'"
+msgstr ""
+
+#: archive.php:28 category.php:28 content-gallery.php:58 content-image.php:18
+#: content.php:18 core/visual_composer.php:824 search.php:31
+msgid "BY"
+msgstr ""
+
+#: archive.php:44 category.php:44 search.php:47
+msgid "Read more"
+msgstr ""
+
+#: content-gallery.php:62 content-image.php:22 content.php:22
+msgid "Like"
+msgstr ""
+
+#: core/barebones-config-legacy.php:55
+msgid "Home Settings"
+msgstr ""
+
+#: core/barebones-config-legacy.php:56
+msgid ""
+"These fields can be fully translated by WPML (WordPress Multi-Language). "
+"This serves as an example for you to implement. For extra details look at "
+"our <a href=\"http://docs.reduxframework.com/core/advanced/wpml-integration/"
+"\" target=\"_blank\">WPML Implementation</a> documentation."
+msgstr ""
+
+#: core/barebones-config-legacy.php:64
+msgid "Example Text"
+msgstr ""
+
+#: core/barebones-config-legacy.php:67
+msgid "Example description."
+msgstr ""
+
+#: core/barebones-config-legacy.php:68
+msgid "Example subtitle."
+msgstr ""
+
+#: core/barebones-config-legacy.php:78
+msgid "WPML Example"
+msgstr ""
+
+#: core/barebones-config-legacy.php:79
+msgid ""
+"These fields can be fully translated by WPML (WordPress Multi-Language). "
+"This serves as an example for you to implement."
+msgstr ""
+
+#: core/barebones-config-legacy.php:86
+msgid "WPML Text"
+msgstr ""
+
+#: core/barebones-config-legacy.php:87
+msgid "This string can be translated via WPML."
+msgstr ""
+
+#: core/barebones-config-legacy.php:92
+msgid "WPML Multi Checkbox"
+msgstr ""
+
+#: core/barebones-config-legacy.php:93
+msgid "You can literally translate the values via key."
+msgstr ""
+
+#: core/barebones-config-legacy.php:110 core/options.php:286
+msgid "Theme Information 1"
+msgstr ""
+
+#: core/barebones-config-legacy.php:111 core/barebones-config-legacy.php:117
+#: core/options.php:287 core/options.php:293
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: core/barebones-config-legacy.php:116 core/options.php:292
+msgid "Theme Information 2"
+msgstr ""
+
+#: core/barebones-config-legacy.php:121 core/options.php:297
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: core/barebones-config-legacy.php:144 core/barebones-config-legacy.php:145
+msgid "Sample Options"
+msgstr ""
+
+#: core/barebones-config-legacy.php:262 core/options.php:438
+#, php-format
+msgid ""
+"<p>Did you know that Redux sets a global variable for you? To access any of "
+"your saved options from within your code you can use your global variable: "
+"<strong>$%1$s</strong></p>"
+msgstr ""
+
+#: core/barebones-config-legacy.php:264 core/options.php:440
+msgid ""
+"<p>This text is displayed above the options panel. It isn't required, but "
+"more info is always better! The intro_text field accepts all HTML.</p>"
+msgstr ""
+
+#: core/barebones-config-legacy.php:268 core/options.php:444
+msgid ""
+"<p>This text is displayed below the options panel. It isn't required, but "
+"more info is always better! The footer_text field accepts all HTML.</p>"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:399
+#: core/class-tgm-plugin-activation.php:3029
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:400
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2422
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2438
+msgid "Type"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2443
+#: woocommerce/myaccount/my-orders.php:34
+msgid "Status"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr ""
+
+#: core/class-tgm-plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/options.php:47
+msgid "General"
+msgstr ""
+
+#: core/options.php:48
+msgid "Setting General."
+msgstr ""
+
+#: core/options.php:54
+msgid "Logo favicon"
+msgstr ""
+
+#: core/options.php:55
+msgid "Choose your favicon"
+msgstr ""
+
+#: core/options.php:62 core/visual_composer.php:407
+msgid "Header"
+msgstr ""
+
+#: core/options.php:63
+msgid "Option for header"
+msgstr ""
+
+#: core/options.php:71
+msgid "Enable images logo"
+msgstr ""
+
+#: core/options.php:74
+msgid "Do you want display logo on website."
+msgstr ""
+
+#: core/options.php:75
+msgid "Display logo on website."
+msgstr ""
+
+#: core/options.php:76 core/options.php:212 core/options.php:240
+#: core/options.php:255
+msgid "Enabled"
+msgstr ""
+
+#: core/options.php:77 core/options.php:213 core/options.php:241
+#: core/options.php:256
+msgid "Disabled"
+msgstr ""
+
+#: core/options.php:85
+msgid "Logo Images"
+msgstr ""
+
+#: core/options.php:86 core/options.php:91
+msgid "Choose your logo"
+msgstr ""
+
+#: core/options.php:90
+msgid "Logo Images for mobile response"
+msgstr ""
+
+#: core/options.php:96
+msgid "Text logo"
+msgstr ""
+
+#: core/options.php:99
+msgid "Display text on logo header."
+msgstr ""
+
+#: core/options.php:100
+msgid "Display text on logo header if Logo images is off."
+msgstr ""
+
+#: core/options.php:109
+msgid "Text description contact phone"
+msgstr ""
+
+#: core/options.php:112 core/options.php:171
+msgid "Text contact phone."
+msgstr ""
+
+#: core/options.php:113 core/options.php:172
+msgid "Description for text contact phone."
+msgstr ""
+
+#: core/options.php:122
+msgid "Phone number"
+msgstr ""
+
+#: core/options.php:125
+msgid "Phone number your company."
+msgstr ""
+
+#: core/options.php:126
+msgid "Phone number."
+msgstr ""
+
+#: core/options.php:138
+msgid "Toypography"
+msgstr ""
+
+#: core/options.php:139
+msgid "Setting Typography."
+msgstr ""
+
+#: core/options.php:146
+msgid "Main typography"
+msgstr ""
+
+#: core/options.php:160
+msgid "Footer"
+msgstr ""
+
+#: core/options.php:161
+msgid "Setting footer."
+msgstr ""
+
+#: core/options.php:168
+msgid "Text content on footer"
+msgstr ""
+
+#: core/options.php:181
+msgid "Copyright in footer"
+msgstr ""
+
+#: core/options.php:184
+msgid "Text Copyright in footer."
+msgstr ""
+
+#: core/options.php:185
+msgid "Enter   text ."
+msgstr ""
+
+#: core/options.php:198
+msgid "Content setting"
+msgstr ""
+
+#: core/options.php:199
+msgid "Setting Content."
+msgstr ""
+
+#: core/options.php:207
+msgid "Enable Sidebar on categories page"
+msgstr ""
+
+#: core/options.php:210 core/options.php:211
+msgid "Layout display on categories page."
+msgstr ""
+
+#: core/options.php:222
+msgid "Number items on page"
+msgstr ""
+
+#: core/options.php:225 core/options.php:226
+msgid "Number items on page."
+msgstr ""
+
+#: core/options.php:235
+msgid "Enable Sidebar on blog post page"
+msgstr ""
+
+#: core/options.php:238 core/options.php:239
+msgid "Enable Sidebar on blog post page."
+msgstr ""
+
+#: core/options.php:250
+msgid "Enable Breabcrum on shop page"
+msgstr ""
+
+#: core/options.php:253 core/options.php:254
+msgid "Enable Breabcrum on shop page."
+msgstr ""
+
+#: core/options.php:265
+msgid "Contact form popup"
+msgstr ""
+
+#: core/options.php:268
+msgid "Paste your shortcode Contact form 7."
+msgstr ""
+
+#: core/options.php:269
+msgid "Shortcode will display on popup."
+msgstr ""
+
+#: core/options.php:320 core/options.php:321
+msgid "Make Clean Theme Option"
+msgstr ""
+
+#: core/visual_composer.php:2
+msgid "Same window"
+msgstr ""
+
+#: core/visual_composer.php:2
+msgid "New window"
+msgstr ""
+
+#: core/visual_composer.php:61
+msgid "Service Offer"
+msgstr ""
+
+#: core/visual_composer.php:64 core/visual_composer.php:206
+#: core/visual_composer.php:402 core/visual_composer.php:628
+#: core/visual_composer.php:735 core/visual_composer.php:860
+#: core/visual_composer.php:944 core/visual_composer.php:1058
+#: core/visual_composer.php:1145 core/visual_composer.php:1250
+msgid "Make clean"
+msgstr ""
+
+#: core/visual_composer.php:68 core/visual_composer.php:211
+#: core/visual_composer.php:659 core/visual_composer.php:740
+#: core/visual_composer.php:868 core/visual_composer.php:952
+#: core/visual_composer.php:1066 core/visual_composer.php:1152
+#: core/visual_composer.php:1257 widgets/class-wc-widget-cart.php:32
+#: widgets/class-wc-widget-layered-nav-filters.php:30
+#: widgets/class-wc-widget-layered-nav.php:78
+#: widgets/class-wc-widget-price-filter.php:32
+#: widgets/class-wc-widget-product-categories.php:44
+#: widgets/class-wc-widget-product-search.php:30
+#: widgets/class-wc-widget-product-tag-cloud.php:30
+#: widgets/class-wc-widget-products.php:30
+#: widgets/class-wc-widget-recent-reviews.php:30
+#: widgets/class-wc-widget-recently-viewed.php:30
+#: widgets/class-wc-widget-top-rated-products.php:32
+msgid "Title"
+msgstr ""
+
+#: core/visual_composer.php:73
+msgid "Image"
+msgstr ""
+
+#: core/visual_composer.php:76 core/visual_composer.php:220
+#: core/visual_composer.php:268 core/visual_composer.php:290
+#: core/visual_composer.php:312 core/visual_composer.php:417
+msgid "Select images from media library."
+msgstr ""
+
+#: core/visual_composer.php:80 core/visual_composer.php:773
+msgid "Number word display"
+msgstr ""
+
+#: core/visual_composer.php:83 core/visual_composer.php:776
+msgid "Enter number of word display short content."
+msgstr ""
+
+#: core/visual_composer.php:87
+msgid "Style slider"
+msgstr ""
+
+#: core/visual_composer.php:90
+msgid "Choose style slide."
+msgstr ""
+
+#: core/visual_composer.php:94
+msgid "Size image to display"
+msgstr ""
+
+#: core/visual_composer.php:97
+msgid ""
+"Enter image size. Example: thumbnail, medium, large, full or other sizes "
+"defined by current theme. Alternatively enter image size in pixels: 200x100 "
+"(Width x Height). Leave empty to use \"thumbnail\" size.."
+msgstr ""
+
+#: core/visual_composer.php:101
+msgid "Number items to  display"
+msgstr ""
+
+#: core/visual_composer.php:104
+msgid "Enter number of items display in  slide."
+msgstr ""
+
+#: core/visual_composer.php:108 core/visual_composer.php:753
+#: core/visual_composer.php:1272
+msgid "Select category"
+msgstr ""
+
+#: core/visual_composer.php:110 core/visual_composer.php:755
+#: core/visual_composer.php:1274
+msgid "Select category."
+msgstr ""
+
+#: core/visual_composer.php:114
+msgid "Title  display on button"
+msgstr ""
+
+#: core/visual_composer.php:117
+msgid "Enter title button."
+msgstr ""
+
+#: core/visual_composer.php:132
+msgid "Custom query"
+msgstr ""
+
+#: core/visual_composer.php:133
+msgid "List of IDs"
+msgstr ""
+
+#: core/visual_composer.php:202
+msgid "Welcome box"
+msgstr ""
+
+#: core/visual_composer.php:207
+msgid "A block of text with WYSIWYG editor"
+msgstr ""
+
+#: core/visual_composer.php:213
+msgid "Title welcome"
+msgstr ""
+
+#: core/visual_composer.php:217
+msgid "Image welcome"
+msgstr ""
+
+#: core/visual_composer.php:224
+msgid "Content welcome"
+msgstr ""
+
+#: core/visual_composer.php:231
+msgid "Button left"
+msgstr ""
+
+#: core/visual_composer.php:238 core/visual_composer.php:251
+#: core/visual_composer.php:436
+msgid "URL (Link)"
+msgstr ""
+
+#: core/visual_composer.php:240 core/visual_composer.php:253
+#: core/visual_composer.php:438
+msgid "Enter button link."
+msgstr ""
+
+#: core/visual_composer.php:244
+msgid "Button right"
+msgstr ""
+
+#: core/visual_composer.php:258
+msgid "Heading title box 1"
+msgstr ""
+
+#: core/visual_composer.php:265
+msgid "Image icon box 1"
+msgstr ""
+
+#: core/visual_composer.php:272
+msgid "Content box 1"
+msgstr ""
+
+#: core/visual_composer.php:280
+msgid "Heading title box 2"
+msgstr ""
+
+#: core/visual_composer.php:287
+msgid "Image icon box 2"
+msgstr ""
+
+#: core/visual_composer.php:294 core/visual_composer.php:316
+msgid "Content box 2"
+msgstr ""
+
+#: core/visual_composer.php:302
+msgid "Heading title box 3"
+msgstr ""
+
+#: core/visual_composer.php:309
+msgid "Image icon box 3"
+msgstr ""
+
+#: core/visual_composer.php:399 core/visual_composer.php:403
+msgid "Industry box & Customer reviews"
+msgstr ""
+
+#: core/visual_composer.php:410 core/visual_composer.php:418
+#: core/visual_composer.php:425 core/visual_composer.php:432
+#: core/visual_composer.php:439 core/visual_composer.php:445
+#: core/visual_composer.php:470
+msgid "INDUSTRIES "
+msgstr ""
+
+#: core/visual_composer.php:414
+msgid "Icon Header"
+msgstr ""
+
+#: core/visual_composer.php:422 core/visual_composer.php:961
+msgid "Description"
+msgstr ""
+
+#: core/visual_composer.php:429
+msgid "Button title"
+msgstr ""
+
+#: core/visual_composer.php:443 core/visual_composer.php:974
+msgid "List Serve"
+msgstr ""
+
+#: core/visual_composer.php:449
+msgid "Title serve"
+msgstr ""
+
+#: core/visual_composer.php:451
+msgid "Enter title for serve."
+msgstr ""
+
+#: core/visual_composer.php:456 core/visual_composer.php:673
+#: core/visual_composer.php:747 core/visual_composer.php:875
+#: core/visual_composer.php:968
+msgid "Icon"
+msgstr ""
+
+#: core/visual_composer.php:458 core/visual_composer.php:642
+#: core/visual_composer.php:675 core/visual_composer.php:749
+msgid "Select icon from library."
+msgstr ""
+
+#: core/visual_composer.php:467 core/visual_composer.php:526
+#: core/visual_composer.php:633 core/visual_composer.php:780
+#: core/visual_composer.php:1089
+msgid "Extra class"
+msgstr ""
+
+#: core/visual_composer.php:475
+msgid "Head title"
+msgstr ""
+
+#: core/visual_composer.php:478 core/visual_composer.php:485
+#: core/visual_composer.php:491 core/visual_composer.php:529
+msgid "Reviews "
+msgstr ""
+
+#: core/visual_composer.php:482
+msgid "Icon header"
+msgstr ""
+
+#: core/visual_composer.php:489
+msgid "List reviews"
+msgstr ""
+
+#: core/visual_composer.php:495
+msgid "Customer name"
+msgstr ""
+
+#: core/visual_composer.php:497
+msgid "Enter customer name."
+msgstr ""
+
+#: core/visual_composer.php:502
+msgid "Position name"
+msgstr ""
+
+#: core/visual_composer.php:504
+msgid "Enter customer Position."
+msgstr ""
+
+#: core/visual_composer.php:509
+msgid "Customer avatar"
+msgstr ""
+
+#: core/visual_composer.php:511
+msgid "Select avatar from library."
+msgstr ""
+
+#: core/visual_composer.php:515
+msgid "Review content"
+msgstr ""
+
+#: core/visual_composer.php:517
+msgid "Enter reviews content."
+msgstr ""
+
+#: core/visual_composer.php:626
+msgid "Make clean Statistics"
+msgstr ""
+
+#: core/visual_composer.php:629
+msgid "Make clean Statistics animation"
+msgstr ""
+
+#: core/visual_composer.php:640 core/visual_composer.php:679
+msgid "Background"
+msgstr ""
+
+#: core/visual_composer.php:646
+msgid "Custom background Color"
+msgstr ""
+
+#: core/visual_composer.php:648
+msgid "Select background color for your element."
+msgstr ""
+
+#: core/visual_composer.php:653
+msgid "Statistics count animation"
+msgstr ""
+
+#: core/visual_composer.php:661
+msgid "Enter title for statistics."
+msgstr ""
+
+#: core/visual_composer.php:666
+msgid "Number animation"
+msgstr ""
+
+#: core/visual_composer.php:668
+msgid "Enter number for statistics."
+msgstr ""
+
+#: core/visual_composer.php:681
+msgid "Select background from library."
+msgstr ""
+
+#: core/visual_composer.php:733
+msgid "Make clean Latest news"
+msgstr ""
+
+#: core/visual_composer.php:736
+msgid "Make clean LATEST NEWS"
+msgstr ""
+
+#: core/visual_composer.php:759
+msgid "Buton title readmore"
+msgstr ""
+
+#: core/visual_composer.php:766
+msgid "Title view all"
+msgstr ""
+
+#: core/visual_composer.php:828
+msgid "Likes"
+msgstr ""
+
+#: core/visual_composer.php:857
+msgid "Home blocks Products by Brand Carousel"
+msgstr ""
+
+#: core/visual_composer.php:861
+msgid "Home blocks of Products by Brand Carousel"
+msgstr ""
+
+#: core/visual_composer.php:870 core/visual_composer.php:954
+#: core/visual_composer.php:963 core/visual_composer.php:1068
+msgid "New Collection"
+msgstr ""
+
+#: core/visual_composer.php:871 core/visual_composer.php:955
+#: core/visual_composer.php:964 core/visual_composer.php:1069
+#: core/visual_composer.php:1155 core/visual_composer.php:1260
+msgid "Block title."
+msgstr ""
+
+#: core/visual_composer.php:877
+msgid "Icon title."
+msgstr ""
+
+#: core/visual_composer.php:881 core/visual_composer.php:1171
+#: core/visual_composer.php:1264
+msgid "Columns count"
+msgstr ""
+
+#: core/visual_composer.php:885 core/visual_composer.php:1175
+#: core/visual_composer.php:1268
+msgid "Select columns count."
+msgstr ""
+
+#: core/visual_composer.php:893 core/visual_composer.php:1194
+#: core/visual_composer.php:1281
+msgid "Number items"
+msgstr ""
+
+#: core/visual_composer.php:896 core/visual_composer.php:1284
+msgid "Number of items in a carousel."
+msgstr ""
+
+#: core/visual_composer.php:941 core/visual_composer.php:945
+msgid "Home blocks STAFFS by STAFFS Carousel"
+msgstr ""
+
+#: core/visual_composer.php:970 core/visual_composer.php:988
+#: core/visual_composer.php:994
+msgid "Select  from library."
+msgstr ""
+
+#: core/visual_composer.php:979
+msgid "Staffs name"
+msgstr ""
+
+#: core/visual_composer.php:981
+msgid "Enter name for staffs."
+msgstr ""
+
+#: core/visual_composer.php:986
+msgid "Avatar"
+msgstr ""
+
+#: core/visual_composer.php:992
+msgid "Icon hover"
+msgstr ""
+
+#: core/visual_composer.php:998
+msgid "Position staffs"
+msgstr ""
+
+#: core/visual_composer.php:1000
+msgid "Enter name position staffs."
+msgstr ""
+
+#: core/visual_composer.php:1055 core/visual_composer.php:1059
+msgid "Blocks testimonial by testimonial Carousel"
+msgstr ""
+
+#: core/visual_composer.php:1073
+msgid "List testimonial"
+msgstr ""
+
+#: core/visual_composer.php:1079
+msgid "Content"
+msgstr ""
+
+#: core/visual_composer.php:1081
+msgid "Enter your content testimonial."
+msgstr ""
+
+#: core/visual_composer.php:1091
+msgid "Extra class."
+msgstr ""
+
+#: core/visual_composer.php:1125
+msgid "Previous"
+msgstr ""
+
+#: core/visual_composer.php:1129
+msgid "Next"
+msgstr ""
+
+#: core/visual_composer.php:1142 core/visual_composer.php:1247
+msgid "Blocks Category Product"
+msgstr ""
+
+#: core/visual_composer.php:1146
+msgid "Home blocks of Featured Product"
+msgstr ""
+
+#: core/visual_composer.php:1154 core/visual_composer.php:1259
+msgid "Category Products"
+msgstr ""
+
+#: core/visual_composer.php:1159
+msgid "Tabs Content"
+msgstr ""
+
+#: core/visual_composer.php:1164
+msgid "Title "
+msgstr ""
+
+#: core/visual_composer.php:1166
+msgid "Enter title for tab."
+msgstr ""
+
+#: core/visual_composer.php:1179
+msgid "Select type product"
+msgstr ""
+
+#: core/visual_composer.php:1181
+msgid "Select type product."
+msgstr ""
+
+#: core/visual_composer.php:1182 widgets/class-wc-widget-products.php:45
+msgid "All Products"
+msgstr ""
+
+#: core/visual_composer.php:1183
+msgid "Best Selling"
+msgstr ""
+
+#: core/visual_composer.php:1184
+msgid "Top Rated"
+msgstr ""
+
+#: core/visual_composer.php:1185
+msgid "New Products"
+msgstr ""
+
+#: core/visual_composer.php:1186
+msgid "Featured Proucts"
+msgstr ""
+
+#: core/visual_composer.php:1197
+msgid "Number of items in a tab."
+msgstr ""
+
+#: core/visual_composer.php:1251
+msgid "Home blocks of Category Product"
+msgstr ""
+
+#: core/visual_composer.php:1333
+msgid "View More"
+msgstr ""
+
+#: functions.php:26
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: functions.php:49
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:49
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:49
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:52
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:54
+msgid "Default sidebar"
+msgstr ""
+
+#: functions.php:61
+msgid "Woocommerce Sidebar"
+msgstr ""
+
+#: functions.php:65
+msgid "Woocommerce sidebar"
+msgstr ""
+
+#: functions.php:76
+msgid "Footer link 1"
+msgstr ""
+
+#: functions.php:88
+msgid "Footer link 2"
+msgstr ""
+
+#: functions.php:100
+msgid "Footer link 3"
+msgstr ""
+
+#: functions.php:112
+msgid "Footer Form"
+msgstr ""
+
+#: functions.php:529
+msgid "<p>Copyright@2015 By Khi Con KC_DOMAIN</p>"
+msgstr ""
+
+#: functions.php:539
+msgid ""
+"<h5>HAVE ANY QUESTIONS OR WANT A FREE ESTIMATE? </h5> <h3> CALL NOW: +(01) "
+"800 527 4800</h3>"
+msgstr ""
+
+#: functions.php:560
+msgid "Older Posts"
+msgstr ""
+
+#: functions.php:564
+msgid "Newest Post"
+msgstr ""
+
+#: functions.php:664
+msgid "Contact form"
+msgstr ""
+
+#: header.php:22
+msgid "best cleaning company website forever!"
+msgstr ""
+
+#: header.php:26
+msgid "working hours : Mon-sat (8.00am - 6.00PM)"
+msgstr ""
+
+#: header.php:83
+msgid "free instant quote"
+msgstr ""
+
+#: search.php:7
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: widgets/class-wc-slide-widget.php:76 widgets/widgets.php:175
+#: widgets/widgets.php:306 widgets/widgets.php:355 widgets/widgets.php:382
+#: widgets/widgets.php:540 widgets/widgets.php:616
+msgid "Title:"
+msgstr ""
+
+#: widgets/class-wc-slide-widget.php:81
+msgid "Image:"
+msgstr ""
+
+#: widgets/class-wc-slide-widget.php:86
+msgid "Link:"
+msgstr ""
+
+#: widgets/class-wc-widget-cart.php:25
+msgid "Display the user's Cart in the sidebar."
+msgstr ""
+
+#: widgets/class-wc-widget-cart.php:27
+msgid "WooCommerce Cart"
+msgstr ""
+
+#: widgets/class-wc-widget-cart.php:31
+msgid "Cart"
+msgstr ""
+
+#: widgets/class-wc-widget-cart.php:37
+msgid "Hide if cart is empty"
+msgstr ""
+
+#: widgets/class-wc-widget-layered-nav-filters.php:23
+msgid "Shows active layered nav filters so users can see and deactivate them."
+msgstr ""
+
+#: widgets/class-wc-widget-layered-nav-filters.php:25
+msgid "WooCommerce Layered Nav Filters"
+msgstr ""
+
+#: widgets/class-wc-widget-layered-nav-filters.php:29
+msgid "Active Filters"
+msgstr ""
+
+#: widgets/class-wc-widget-layered-nav-filters.php:91
+msgid "Min"
+msgstr ""
+
+#: widgets/class-wc-widget-layered-nav-filters.php:96
+msgid "Max"
+msgstr ""
+
+#: widgets/class-wc-widget-layered-nav.php:23
+msgid ""
+"Shows a custom attribute in a widget which lets you narrow down the list of "
+"products when viewing product categories."
+msgstr ""
+
+#: widgets/class-wc-widget-layered-nav.php:25
+msgid "WooCommerce Layered Nav"
+msgstr ""
+
+#: widgets/class-wc-widget-layered-nav.php:77
+msgid "Filter by"
+msgstr ""
+
+#: widgets/class-wc-widget-layered-nav.php:83
+msgid "Attribute"
+msgstr ""
+
+#: widgets/class-wc-widget-layered-nav.php:89
+msgid "Display type"
+msgstr ""
+
+#: widgets/class-wc-widget-layered-nav.php:91
+msgid "List"
+msgstr ""
+
+#: widgets/class-wc-widget-layered-nav.php:92
+msgid "Dropdown"
+msgstr ""
+
+#: widgets/class-wc-widget-layered-nav.php:98
+msgid "Query type"
+msgstr ""
+
+#: widgets/class-wc-widget-layered-nav.php:100
+msgid "AND"
+msgstr ""
+
+#: widgets/class-wc-widget-layered-nav.php:101
+msgid "OR"
+msgstr ""
+
+#: widgets/class-wc-widget-layered-nav.php:181
+#, php-format
+msgid "Any %s"
+msgstr ""
+
+#: widgets/class-wc-widget-price-filter.php:25
+msgid ""
+"Shows a price filter slider in a widget which lets you narrow down the list "
+"of shown products when viewing product categories."
+msgstr ""
+
+#: widgets/class-wc-widget-price-filter.php:27
+msgid "WooCommerce Price Filter"
+msgstr ""
+
+#: widgets/class-wc-widget-price-filter.php:31
+msgid "Filter by price"
+msgstr ""
+
+#: widgets/class-wc-widget-price-filter.php:178
+msgid "Filter"
+msgstr ""
+
+#: widgets/class-wc-widget-price-filter.php:180
+msgid "Price:"
+msgstr ""
+
+#: widgets/class-wc-widget-product-categories.php:37
+msgid "A list or dropdown of product categories."
+msgstr ""
+
+#: widgets/class-wc-widget-product-categories.php:39
+msgid "WooCommerce Product Categories"
+msgstr ""
+
+#: widgets/class-wc-widget-product-categories.php:43
+msgid "Product Categories"
+msgstr ""
+
+#: widgets/class-wc-widget-product-categories.php:49
+#: widgets/class-wc-widget-products.php:53
+msgid "Order by"
+msgstr ""
+
+#: widgets/class-wc-widget-product-categories.php:51
+msgid "Category Order"
+msgstr ""
+
+#: widgets/class-wc-widget-product-categories.php:52
+#: woocommerce/single-product-reviews.php:65
+msgid "Name"
+msgstr ""
+
+#: widgets/class-wc-widget-product-categories.php:58
+msgid "Show as dropdown"
+msgstr ""
+
+#: widgets/class-wc-widget-product-categories.php:63
+msgid "Show product counts"
+msgstr ""
+
+#: widgets/class-wc-widget-product-categories.php:68 widgets/widgets.php:316
+#: widgets/widgets.php:550
+msgid "Show hierarchy"
+msgstr ""
+
+#: widgets/class-wc-widget-product-categories.php:73
+msgid "Only show children of the current category"
+msgstr ""
+
+#: widgets/class-wc-widget-product-categories.php:230
+msgid "No product categories exist."
+msgstr ""
+
+#: widgets/class-wc-widget-product-search.php:23
+msgid "A Search box for products only."
+msgstr ""
+
+#: widgets/class-wc-widget-product-search.php:25
+msgid "WooCommerce Product Search"
+msgstr ""
+
+#: widgets/class-wc-widget-product-tag-cloud.php:23
+msgid "Your most used product tags in cloud format."
+msgstr ""
+
+#: widgets/class-wc-widget-product-tag-cloud.php:25
+msgid "WooCommerce Product Tags"
+msgstr ""
+
+#: widgets/class-wc-widget-product-tag-cloud.php:29
+msgid "Product Tags"
+msgstr ""
+
+#: widgets/class-wc-widget-products.php:23
+msgid "Display a list of your products on your site."
+msgstr ""
+
+#: widgets/class-wc-widget-products.php:25
+msgid "WooCommerce Products"
+msgstr ""
+
+#: widgets/class-wc-widget-products.php:29
+msgid "Products"
+msgstr ""
+
+#: widgets/class-wc-widget-products.php:38
+#: widgets/class-wc-widget-recently-viewed.php:38
+#: widgets/class-wc-widget-top-rated-products.php:40
+msgid "Number of products to show"
+msgstr ""
+
+#: widgets/class-wc-widget-products.php:43
+msgid "Show"
+msgstr ""
+
+#: widgets/class-wc-widget-products.php:46
+msgid "Featured Products"
+msgstr ""
+
+#: widgets/class-wc-widget-products.php:47
+msgid "On-sale Products"
+msgstr ""
+
+#: widgets/class-wc-widget-products.php:55
+#: woocommerce/myaccount/my-orders.php:33
+msgid "Date"
+msgstr ""
+
+#: widgets/class-wc-widget-products.php:56 woocommerce/cart/cart.php:31
+#: woocommerce/emails/admin-cancelled-order.php:24
+#: woocommerce/emails/admin-new-order.php:29
+#: woocommerce/emails/customer-completed-order.php:29
+#: woocommerce/emails/customer-invoice.php:33
+#: woocommerce/emails/customer-note.php:33
+#: woocommerce/emails/customer-processing-order.php:29
+#: woocommerce/emails/customer-refunded-order.php:36
+msgid "Price"
+msgstr ""
+
+#: widgets/class-wc-widget-products.php:57
+msgid "Random"
+msgstr ""
+
+#: widgets/class-wc-widget-products.php:58
+msgid "Sales"
+msgstr ""
+
+#: widgets/class-wc-widget-products.php:66
+msgid "ASC"
+msgstr ""
+
+#: widgets/class-wc-widget-products.php:67
+msgid "DESC"
+msgstr ""
+
+#: widgets/class-wc-widget-products.php:73
+msgid "Hide free products"
+msgstr ""
+
+#: widgets/class-wc-widget-products.php:78
+msgid "Show hidden products"
+msgstr ""
+
+#: widgets/class-wc-widget-recent-reviews.php:23
+msgid "Display a list of your most recent reviews on your site."
+msgstr ""
+
+#: widgets/class-wc-widget-recent-reviews.php:25
+msgid "WooCommerce Recent Reviews"
+msgstr ""
+
+#: widgets/class-wc-widget-recent-reviews.php:29
+msgid "Recent Reviews"
+msgstr ""
+
+#: widgets/class-wc-widget-recent-reviews.php:38
+msgid "Number of reviews to show"
+msgstr ""
+
+#: widgets/class-wc-widget-recently-viewed.php:23
+msgid "Display a list of recently viewed products."
+msgstr ""
+
+#: widgets/class-wc-widget-recently-viewed.php:25
+msgid "WooCommerce Recently Viewed"
+msgstr ""
+
+#: widgets/class-wc-widget-recently-viewed.php:29
+msgid "Recently Viewed Products"
+msgstr ""
+
+#: widgets/class-wc-widget-top-rated-products.php:25
+msgid "Display a list of your top rated products on your site."
+msgstr ""
+
+#: widgets/class-wc-widget-top-rated-products.php:27
+msgid "WooCommerce Top Rated Products"
+msgstr ""
+
+#: widgets/class-wc-widget-top-rated-products.php:31
+msgid "Top Rated Products"
+msgstr ""
+
+#: widgets/widgets.php:55
+msgid "Your site&#8217;s most recent Posts."
+msgstr ""
+
+#: widgets/widgets.php:56
+msgid "Makeclean Recent Posts"
+msgstr ""
+
+#: widgets/widgets.php:70
+msgid "Recent Posts"
+msgstr ""
+
+#: widgets/widgets.php:178
+msgid "Number of posts to show:"
+msgstr ""
+
+#: widgets/widgets.php:182
+msgid "Display post date?"
+msgstr ""
+
+#: widgets/widgets.php:190 widgets/widgets.php:424 widgets/widgets.php:561
+msgid "A list or dropdown of categories."
+msgstr ""
+
+#: widgets/widgets.php:191
+msgid "Makeclean Categories"
+msgstr ""
+
+#: widgets/widgets.php:204 widgets/widgets.php:438 widgets/widgets.php:575
+msgid "Categories"
+msgstr ""
+
+#: widgets/widgets.php:227 widgets/widgets.php:461
+msgid "Select Category"
+msgstr ""
+
+#: widgets/widgets.php:310 widgets/widgets.php:544
+msgid "Display as dropdown"
+msgstr ""
+
+#: widgets/widgets.php:313 widgets/widgets.php:547
+msgid "Show post counts"
+msgstr ""
+
+#: widgets/widgets.php:325
+msgid "A search form for your site."
+msgstr ""
+
+#: widgets/widgets.php:375
+msgid "Gallery post."
+msgstr ""
+
+#: widgets/widgets.php:425
+msgid "Footer Categories"
+msgstr ""
+
+#: widgets/widgets.php:562
+msgid "Makeclean Form Footer"
+msgstr ""
+
+#: widgets/widgets.php:618
+msgid "Shortcode Contact form 7:"
+msgstr ""
+
+#: woocommerce/auth/form-grant-access.php:16 woocommerce/auth/form-login.php:18
+#, php-format
+msgid "%s would like to connect to your store"
+msgstr ""
+
+#: woocommerce/auth/form-grant-access.php:20
+#, php-format
+msgid ""
+"This will give \"%s\" <strong>%s</strong> access which will allow it to:"
+msgstr ""
+
+#: woocommerce/auth/form-grant-access.php:30
+#, php-format
+msgid "Logged in as %s"
+msgstr ""
+
+#: woocommerce/auth/form-grant-access.php:30
+msgid "Logout"
+msgstr ""
+
+#: woocommerce/auth/form-grant-access.php:34
+msgid "Approve"
+msgstr ""
+
+#: woocommerce/auth/form-grant-access.php:35
+msgid "Deny"
+msgstr ""
+
+#: woocommerce/auth/form-login.php:22
+#, php-format
+msgid ""
+"To connect to %1$s you need to be logged in. Log in to your store below, or "
+"%2$scancel and return to %1$s%3$s"
+msgstr ""
+
+#: woocommerce/auth/form-login.php:26 woocommerce/myaccount/form-login.php:35
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/auth/form-login.php:30 woocommerce/global/form-login.php:30
+#: woocommerce/myaccount/form-login.php:39
+#: woocommerce/myaccount/form-login.php:89
+msgid "Password"
+msgstr ""
+
+#: woocommerce/auth/header.php:20
+msgid "Application Authentication Request"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:18
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:22
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:20
+#, php-format
+msgid "Shipping #%d"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:22 woocommerce/cart/cart-shipping.php:97
+#: woocommerce/cart/cart-totals.php:47
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:59
+msgid "Please use the shipping calculator to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:63
+msgid ""
+"Please continue to the checkout and enter your full address to see if there "
+"are any available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:67
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:76 woocommerce/cart/cart-shipping.php:82
+msgid ""
+"There are no shipping methods available. Please double check your address, "
+"or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:20
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:25 woocommerce/cart/mini-cart.php:71
+#: woocommerce/checkout/review-order.php:50
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:79 woocommerce/cart/cart.php:33
+#: woocommerce/checkout/review-order.php:18
+#: woocommerce/checkout/review-order.php:97
+#: woocommerce/myaccount/my-orders.php:35
+#: woocommerce/order/order-details.php:21
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:91
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:94
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/cart.php:30 woocommerce/checkout/form-pay.php:20
+#: woocommerce/checkout/review-order.php:17
+#: woocommerce/emails/admin-cancelled-order.php:22
+#: woocommerce/emails/admin-new-order.php:27
+#: woocommerce/emails/customer-completed-order.php:27
+#: woocommerce/emails/customer-invoice.php:31
+#: woocommerce/emails/customer-note.php:31
+#: woocommerce/emails/customer-processing-order.php:27
+#: woocommerce/emails/customer-refunded-order.php:34
+#: woocommerce/order/order-details.php:20
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:32 woocommerce/emails/admin-cancelled-order.php:23
+#: woocommerce/emails/admin-new-order.php:28
+#: woocommerce/emails/customer-completed-order.php:28
+#: woocommerce/emails/customer-invoice.php:32
+#: woocommerce/emails/customer-note.php:32
+#: woocommerce/emails/customer-processing-order.php:28
+#: woocommerce/emails/customer-refunded-order.php:35
+#: woocommerce/global/quantity-input.php:16
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:115 woocommerce/cart/mini-cart.php:40
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:134
+msgid "Coupon"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:40
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:63
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:76
+msgid "View Cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:77
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/cart/proceed-to-checkout-button.php:16
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:24
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:30
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:54
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:87
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:18
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:22
+msgid "Return To Cart"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:20
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:24
+msgid "Billing Details"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:43
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:54
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:23
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:48
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:18
+msgid "Have a coupon?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:18
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:18
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:19
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:26
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:21
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:22
+msgid "Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:80
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:90
+msgid "Pay for order"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:32
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:58
+#: woocommerce/single-product/tabs/additional-information.php:16
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:30
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:32
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:43
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:53
+#, php-format
+msgid ""
+"I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms &amp; "
+"conditions</a>"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:18
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:22
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:24
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:28 woocommerce/myaccount/my-orders.php:68
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:30
+msgid "My Account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:36 woocommerce/checkout/thankyou.php:67
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:40
+msgid "Order Number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:44
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:48
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:53
+msgid "Payment Method:"
+msgstr ""
+
+#: woocommerce/content-product.php:78
+msgid "View details"
+msgstr ""
+
+#: woocommerce/emails/admin-cancelled-order.php:13
+#: woocommerce/emails/plain/admin-cancelled-order.php:15
+#, php-format
+msgid "The order #%d from %s has been cancelled. The order was as follows:"
+msgstr ""
+
+#: woocommerce/emails/admin-cancelled-order.php:17
+#, php-format
+msgid "Order: %s"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:18
+#, php-format
+msgid "You have received an order from %s. The order is as follows:"
+msgstr ""
+
+#: woocommerce/emails/admin-new-order.php:22
+#: woocommerce/emails/customer-completed-order.php:22
+#: woocommerce/emails/customer-invoice.php:26
+#: woocommerce/emails/customer-note.php:26
+#: woocommerce/emails/customer-processing-order.php:22
+#: woocommerce/emails/customer-refunded-order.php:29
+#, php-format
+msgid "Order #%s"
+msgstr ""
+
+#: woocommerce/emails/customer-completed-order.php:18
+#: woocommerce/emails/plain/customer-completed-order.php:16
+#, php-format
+msgid ""
+"Hi there. Your recent order on %s has been completed. Your order details are "
+"shown below for your reference:"
+msgstr ""
+
+#: woocommerce/emails/customer-invoice.php:20
+#: woocommerce/emails/plain/customer-invoice.php:17
+#, php-format
+msgid ""
+"An order has been created for you on %s. To pay for this order please use "
+"the following link: %s"
+msgstr ""
+
+#: woocommerce/emails/customer-invoice.php:20
+msgid "pay"
+msgstr ""
+
+#: woocommerce/emails/customer-new-account.php:18
+#: woocommerce/emails/plain/customer-new-account.php:16
+#, php-format
+msgid ""
+"Thanks for creating an account on %s. Your username is <strong>%s</strong>."
+msgstr ""
+
+#: woocommerce/emails/customer-new-account.php:22
+#, php-format
+msgid "Your password has been automatically generated: <strong>%s</strong>"
+msgstr ""
+
+#: woocommerce/emails/customer-new-account.php:26
+#: woocommerce/emails/plain/customer-new-account.php:21
+#, php-format
+msgid ""
+"You can access your account area to view your orders and change your "
+"password here: %s."
+msgstr ""
+
+#: woocommerce/emails/customer-note.php:18
+#: woocommerce/emails/plain/customer-note.php:16
+msgid "Hello, a note has just been added to your order:"
+msgstr ""
+
+#: woocommerce/emails/customer-note.php:22
+#: woocommerce/emails/plain/customer-note.php:24
+msgid "For your reference, your order details are shown below."
+msgstr ""
+
+#: woocommerce/emails/customer-processing-order.php:18
+#: woocommerce/emails/plain/customer-processing-order.php:16
+msgid ""
+"Your order has been received and is now being processed. Your order details "
+"are shown below for your reference:"
+msgstr ""
+
+#: woocommerce/emails/customer-refunded-order.php:20
+#, php-format
+msgid "Hi there. Your order on %s has been partially refunded."
+msgstr ""
+
+#: woocommerce/emails/customer-refunded-order.php:23
+#, php-format
+msgid "Hi there. Your order on %s has been refunded."
+msgstr ""
+
+#: woocommerce/emails/customer-refunded-order.php:50
+#: woocommerce/emails/plain/customer-refunded-order.php:32
+msgid "Amount Refunded"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:18
+#: woocommerce/emails/plain/customer-reset-password.php:16
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:19
+#: woocommerce/emails/plain/customer-reset-password.php:18
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:20
+#: woocommerce/emails/plain/customer-reset-password.php:19
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:21
+#: woocommerce/emails/plain/customer-reset-password.php:20
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: woocommerce/emails/customer-reset-password.php:24
+msgid "Click here to reset your password"
+msgstr ""
+
+#: woocommerce/emails/email-addresses.php:20
+#: woocommerce/emails/plain/email-addresses.php:14
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/emails/email-addresses.php:30
+#: woocommerce/emails/plain/email-addresses.php:18
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-cancelled-order.php:21
+#: woocommerce/emails/plain/admin-new-order.php:22
+#: woocommerce/emails/plain/customer-completed-order.php:22
+#: woocommerce/emails/plain/customer-invoice.php:23
+#: woocommerce/emails/plain/customer-note.php:30
+#: woocommerce/emails/plain/customer-processing-order.php:22
+#: woocommerce/emails/plain/customer-refunded-order.php:22
+#, php-format
+msgid "Order number: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-cancelled-order.php:22
+#: woocommerce/emails/plain/admin-new-order.php:23
+#: woocommerce/emails/plain/customer-completed-order.php:23
+#: woocommerce/emails/plain/customer-invoice.php:24
+#: woocommerce/emails/plain/customer-note.php:31
+#: woocommerce/emails/plain/customer-processing-order.php:23
+#: woocommerce/emails/plain/customer-refunded-order.php:23
+msgid "jS F Y"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-cancelled-order.php:36
+#: woocommerce/emails/plain/admin-new-order.php:37
+#, php-format
+msgid "View order: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/admin-new-order.php:16
+#, php-format
+msgid "You have received an order from %s."
+msgstr ""
+
+#: woocommerce/emails/plain/customer-new-account.php:19
+#, php-format
+msgid "Your password is <strong>%s</strong>."
+msgstr ""
+
+#: woocommerce/emails/plain/customer-refunded-order.php:16
+#, php-format
+msgid ""
+"Hi there. Your order on %s has been refunded. Your order details are shown "
+"below for your reference:"
+msgstr ""
+
+#: woocommerce/emails/plain/email-order-items.php:35
+#, php-format
+msgid "Quantity: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/email-order-items.php:38
+#, php-format
+msgid "Cost: %s"
+msgstr ""
+
+#: woocommerce/emails/plain/email-order-items.php:49
+#, php-format
+msgid "Download %d"
+msgstr ""
+
+#: woocommerce/emails/plain/email-order-items.php:51
+msgid "Download"
+msgstr ""
+
+#: woocommerce/global/form-login.php:26
+#: woocommerce/myaccount/form-lost-password.php:24
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/global/form-login.php:42 woocommerce/myaccount/form-login.php:49
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/global/form-login.php:46 woocommerce/myaccount/form-login.php:53
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:17
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:19
+#: woocommerce/single-product/sale-flash.php:19
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:41
+msgid ""
+"Sorry, it seems that there are no payment methods which support adding a new "
+"payment method. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:23
+msgid "First name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:27
+msgid "Last name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:33
+#: woocommerce/myaccount/form-login.php:82
+msgid "Email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:38
+msgid "Password Change"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:41
+msgid "Current Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:45
+msgid "New Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:49
+msgid "Confirm New Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:16
+#: woocommerce/myaccount/my-address.php:19
+#: woocommerce/myaccount/my-address.php:25
+#: woocommerce/order/order-details-customer.php:49
+msgid "Billing Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:16
+#: woocommerce/myaccount/my-address.php:20
+#: woocommerce/order/order-details-customer.php:60
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:28
+msgid "Login"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:66
+msgid "Register"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:75
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:96
+msgid "Anti-spam"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:22
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:28
+msgid "Enter a new password below."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:31
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:35
+msgid "Re-enter new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:50
+msgid "Reset Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:50
+msgid "Save"
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:19
+#, php-format
+msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:24
+#, php-format
+msgid ""
+"From your account dashboard you can view your recent orders, manage your "
+"shipping and billing addresses and <a href=\"%s\">edit your password and "
+"account details</a>."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:17
+msgid "My Addresses"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:23
+msgid "My Address"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:35
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:45
+msgid "Edit"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:64
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/my-downloads.php:20
+msgid "Available Downloads"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:26
+msgid "Recent Orders"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:32
+msgid "Order"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:75
+msgid "Cancel"
+msgstr ""
+
+#: woocommerce/myaccount/my-orders.php:81
+msgid "View"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:20
+#, php-format
+msgid ""
+"Order #<mark class=\"order-number\">%s</mark> was placed on <mark class="
+"\"order-date\">%s</mark> and is currently <mark class=\"order-status\">%s</"
+"mark>."
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:24 woocommerce/order/tracking.php:25
+msgid "Order Updates"
+msgstr ""
+
+#: woocommerce/myaccount/view-order.php:30 woocommerce/order/tracking.php:31
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:20
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"the \"Track\" button. This was given to you on your receipt and in the "
+"confirmation email you should have received."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:22
+msgid "Order ID"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:23
+msgid "Billing Email"
+msgstr ""
+
+#: woocommerce/order/order-again.php:16
+msgid "Order Again"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:14
+msgid "Customer Details"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:19
+msgid "Note:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:26
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:33
+msgid "Telephone:"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:52
+#: woocommerce/order/order-details-customer.php:63
+#: woocommerce/single-product/meta.php:26
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/order-details.php:16
+msgid "Order Details"
+msgstr ""
+
+#: woocommerce/order/tracking.php:14
+#, php-format
+msgid "Order #%s which was made %s has the status &ldquo;%s&rdquo;"
+msgstr ""
+
+#: woocommerce/order/tracking.php:14
+msgid "ago"
+msgstr ""
+
+#: woocommerce/order/tracking.php:16
+msgid "and was completed"
+msgstr ""
+
+#: woocommerce/order/tracking.php:16
+msgid " ago"
+msgstr ""
+
+#: woocommerce/product-searchform.php:2
+msgid "Search for:"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:26
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:47
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:60
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:60
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:61
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:67
+msgid "Email"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:70
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:76
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:80
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:81
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:82
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:83
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:85
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:86
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:99
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:23
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:34
+msgid "Clear selection"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:26
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:29
+msgid "Weight"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:36
+msgid "Dimensions"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:52
+msgid "Placeholder"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:27
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:29
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: woocommerce/single-product/related.php:42
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/review.php:29
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:30
+msgid "out of 5"
+msgstr ""
+
+#: woocommerce/single-product/review.php:37
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review.php:46
+msgid "verified owner"
+msgstr ""
+
+#: woocommerce/single-product/tabs/description.php:16
+msgid "Product Description"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:43
+msgid "You may also like&hellip;"
+msgstr ""
