@@ -16,11 +16,11 @@
                                 <footer class="entry-footer">
                                     <span class="byline">
                                         <span class="screen-reader-text"><?php _e('BY',KC_DOMAIN)  ?> </span>
-                                        <?=author_link(); ?>
+                                        <?php echo author_link(); ?>
                                     </span>
                                     <span class="byline">
                                         <span class="screen-reader-text"><?php _e('Like',KC_DOMAIN)  ?></span>
-                                        <a href="#"><?= wp_count_comments()->total_comments; ?></a>
+                                        <a href="#"><?php echo  wp_count_comments()->total_comments; ?></a>
                                     </span>
                                     <span class="byline">
                                         <span class="screen-reader-text"><?php
@@ -46,10 +46,10 @@
                             <div class="col-md-6">
                                 <aside class="widget widget_social row">
                                     <ul>
-                                        <li><a href="http://www.facebook.com/sharer.php?<?=get_bloginfo('url' ) ?>" target="_blank"><i class="fa fa-facebook"> </i> </a></li>
-                                        <li><a title="Twitter" href="https://twitter.com/share?url=<?=get_bloginfo('url' ) ?>&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a title="Google Plus" href="https://plus.google.com/share?url=<?=get_bloginfo('url' ) ?>"><i class="fa fa-google-plus"></i></a></li>
-                                        <li><a title="Linked In" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?=get_bloginfo('url' ) ?>" ><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="http://www.facebook.com/sharer.php?<?php echo home_url() ?>" target="_blank"><i class="fa fa-facebook"> </i> </a></li>
+                                        <li><a title="Twitter" href="https://twitter.com/share?url=<?php echo home_url() ?>&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a title="Google Plus" href="https://plus.google.com/share?url=<?php echo home_url() ?>"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a title="Linked In" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?php echo home_url() ?>" ><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </aside>
                             </div>

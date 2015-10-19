@@ -233,7 +233,7 @@ class Custom_WP_Widget_Categories extends WP_Widget {
       wp_dropdown_categories( apply_filters( 'widget_categories_dropdown_args', $cat_args ) );
 ?>
 
-<script type='text/javascript'>
+<script >
 /* <![CDATA[ */
 (function() {
   var dropdown = document.getElementById( "<?php echo esc_js( $dropdown_id ); ?>" );
@@ -397,7 +397,7 @@ class Custom_Gallery_Post extends WP_Widget{
     <ul>
       <?php if ( $gallery = get_post_gallery( get_the_ID(), false ) ) : ?>
           <?php foreach ( $gallery['src'] AS $src ) : ?>
-          <li><a title="Images Gallery" href="#"><img src="<?=$src?>" alt="gallery-1" class="gallery-post" /></a></li>
+          <li><a title="Images Gallery" href="#"><img src="<?php echo $src; ?>" alt="gallery" class="gallery-post" /></a></li>
           <?php endforeach; ?>
       <?php endif; ?>
 

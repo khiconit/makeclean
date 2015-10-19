@@ -77,7 +77,7 @@ if ( 0 == $woocommerce_loop['loop'] % $woocommerce_loop['columns'] ) {
 			<ul>
 				<li><?php _e('View details',KC_DOMAIN) ?></li>
 				<li><i class="fa fa-heart-o"></i></li>
-				<li><img src="<?=get_stylesheet_directory_uri() ?>/assets/images/icon/repeat-icon.png" alt="repeat icon" /></li>
+				<li><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/icon/repeat-icon.png" alt="repeat icon" /></li>
 			</ul>
 		</div>
 	</a>

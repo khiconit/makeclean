@@ -5,7 +5,7 @@
         <div class="container">
             <!-- col-md-6 -->
             <div class="col-md-6 error-content">
-                <img src="<?=get_stylesheet_directory_uri();  ?>/assets/images/404.png" alt="404" />
+                <img src="<?php echo get_stylesheet_directory_uri();  ?>/assets/images/404.png" alt="404" />
                 <h3>Ohh! Coundn’t Find it</h3>
                 <p>This file May Have Been Moved or Delated. Be Sure to Check Your Spelling.</p>
                 <aside class="widget widget_search">
@@ -17,7 +17,7 @@
             </div><!-- col-md-6 -->
             <!-- col-md-6 -->
             <div class="col-md-6">
-                <img src="<?=get_stylesheet_directory_uri();  ?>/assets/images/404-2.jpg" alt="404-2" />
+                <img src="<?php echo get_stylesheet_directory_uri();  ?>/assets/images/404-2.jpg" alt="404-2" />
             </div><!-- col-md-6 -->
         </div><!-- container -->
     </div>

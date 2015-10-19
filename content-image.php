@@ -46,10 +46,10 @@
                             <div class="col-md-6">
                                 <aside class="widget widget_social row">
                                     <ul>
-                                        <li><a href="http://www.facebook.com/sharer.php?<?=get_bloginfo('url' ) ?>" target="_blank"><i class="fa fa-facebook"> </i> </a></li>
-                                        <li><a title="Twitter" href="https://twitter.com/share?url=<?=get_bloginfo('url' ) ?>&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a title="Google Plus" href="https://plus.google.com/share?url=<?=get_bloginfo('url' ) ?>"><i class="fa fa-google-plus"></i></a></li>
-                                        <li><a title="Linked In" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?=get_bloginfo('url' ) ?>" ><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="http://www.facebook.com/sharer.php?<?=home_url() ?>" target="_blank"><i class="fa fa-facebook"> </i> </a></li>
+                                        <li><a title="Twitter" href="https://twitter.com/share?url=<?=home_url() ?>&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a title="Google Plus" href="https://plus.google.com/share?url=<?=home_url() ?>"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a title="Linked In" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=<?=home_url() ?>" ><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </aside>
                             </div>

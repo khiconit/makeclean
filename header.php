@@ -19,11 +19,11 @@
                 <div class="row">
                     <!-- col-md-6 -->
                     <div class="col-md-6 col-sm-6">
-                        <p><img  src="<?= get_template_directory_uri() ?>/assets/images/icon/thumbs-icon.png" alt="thumbs-icon"/><?php _e('best cleaning company website forever!',KC_DOMAIN) ; ?></p>
+                        <p><img  src="<?php echo  get_template_directory_uri() ?>/assets/images/icon/thumbs-icon.png" alt="thumbs-icon"/><?php _e('best cleaning company website forever!',KC_DOMAIN) ; ?></p>
                     </div><!-- col-md-6 /- -->
                     <!-- col-md-6 -->
                     <div class="col-md-6 col-sm-6 text-right">
-                        <p><img  src="<?= get_template_directory_uri() ?>/assets/images/icon/clock-icon.png" alt="clock-icon"/> <?php _e('working hours : Mon-sat (8.00am - 6.00PM)',KC_DOMAIN) ?></p>
+                        <p><img  src="<?php echo  get_template_directory_uri() ?>/assets/images/icon/clock-icon.png" alt="clock-icon"/> <?php _e('working hours : Mon-sat (8.00am - 6.00PM)',KC_DOMAIN) ?></p>
                     </div><!-- col-md-6 /- -->
                 </div>
             </div><!-- container /- -->
@@ -40,7 +40,7 @@
                     <div class="col-md-6 col-sm-8 pull-right row">
                         <!-- col-md-7 -->
                         <div class="col-md-6 col-sm-6 col-sm-offset-2 col-md-offset-2 call-us">
-                            <img src="<?= get_template_directory_uri() ?>/assets/images/icon/mobile-icon.png" alt="mobile-icon" />
+                            <img src="<?php echo  get_template_directory_uri() ?>/assets/images/icon/mobile-icon.png" alt="mobile-icon" />
                            <?php makeclean_contact_phone() ?>
                         </div><!-- col-md-7 /- -->
                         <!-- col-md-5 -->

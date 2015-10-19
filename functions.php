@@ -140,7 +140,7 @@ if ( !function_exists('makeclean_logo')){
             </div>
         <?php else: ?>
                     <div class="col-md-3 col-sm-4">
-                        <a title="<?php bloginfo('description' ); ?>" href="<?php get_bloginfo('url' ) ?>"><img src="<?=$makeclean_theme_option['logo-image']['url']  ?>" alt="<?php bloginfo('description' ); ?>" /></a>
+                        <a title="<?php bloginfo('description' ); ?>" href="<?php home_url() ?>"><img src="<?php echo $makeclean_theme_option['logo-image']['url']  ?>" alt="<?php bloginfo('description' ); ?>" /></a>
                     </div>
         <?php endif; ?>
 
@@ -152,7 +152,7 @@ if ( !function_exists('makeclean_logo')){
 if ( !function_exists('makeclean_logo_response')){
     function makeclean_logo_response(){
          global $makeclean_theme_option;
-        printf('<a  href="%1$s"><img  src="%2$s"></a>',get_bloginfo('url' ) ,$makeclean_theme_option['logo-image-mobile']['url'] );
+        printf('<a  href="%1$s"><img  src="%2$s"></a>',home_url() ,$makeclean_theme_option['logo-image-mobile']['url'] );
     }
 }
 
@@ -201,9 +201,9 @@ if( !function_exists('makeclean_theme_head')){
              ?>
                 <?php
                 if(is_home()):
-                     printf( '<h1> <a href="%1$s" title="%2$s"> %3$s  </a></h1> ',get_bloginfo('url' ),get_bloginfo('description' ),get_bloginfo('sitename' ))  ;
+                     printf( '<h1> <a href="%1$s" title="%2$s"> %3$s  </a></h1> ',home_url(),get_bloginfo('description' ),get_bloginfo('sitename' ))  ;
                 else:
-                     printf( '<p> <a href="%1$s" title="%2$s"> %3$s  </a></p> ',get_bloginfo('url' ),get_bloginfo('description' ),get_bloginfo('sitename' ))  ;
+                     printf( '<p> <a href="%1$s" title="%2$s"> %3$s  </a></p> ',home_url(),get_bloginfo('description' ),get_bloginfo('sitename' ))  ;
                 endif;
             ?>
             <?php

@@ -11,7 +11,7 @@
                             <article>
                                 <div class="blog-box">
                                     <div class="entry-cover">
-                                        <a title="Blog Cover" href="<?php the_permalink(the_ID()); ?>"><?=get_the_post_thumbnail(the_ID(),'large'); ?></a>
+                                        <a title="Blog Cover" href="<?php the_permalink(the_ID()); ?>"><?php echo get_the_post_thumbnail(the_ID(),'large'); ?></a>
                                         <span class="posted-on">
                                             <span class="like"><?php wp_count_comments() ?></span>
                                             <span class="date"><?php echo get_the_date('d/m/Y'); ?></span>
