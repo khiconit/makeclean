@@ -11,7 +11,7 @@
                             <article>
                                 <div class="blog-box">
                                     <div class="entry-cover">
-                                        <a title="Blog Cover" href="<?php the_permalink(the_ID()); ?>"><?php echo  get_the_post_thumbnail(the_ID(),'large'); ?></a>
+                                         <a title="Blog Cover" href="<?php  the_permalink(); ?> ?>"> <?php the_post_thumbnail('full', array('alt' => get_the_title(), 'title' => get_the_title())); ?> </a>
                                         <span class="posted-on">
                                             <span class="like"><?php wp_count_comments() ?></span>
                                             <span class="date"><?php echo get_the_date('d/m/Y'); ?></span>
@@ -20,7 +20,7 @@
                                     <div class="blog-box-inner">
                                         <!-- entry header -->
                                         <header class="entry-header">
-                                            <h3><a title="Post Title" href="blog-post.html"><?php the_title( ); ?></a></h3>
+                                             <h3><a title="Post Title" href="<?php the_permalink(); ?>"><?php the_title( ); ?></a></h3>
                                         </header><!-- entry header /- -->
 
                                         <footer class="entry-footer">

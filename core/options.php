@@ -129,7 +129,32 @@
                             'content' => 'This is a <b>hint</b> tool-tip for the webFonts field.<br/><br/>Add any HTML based text you like here.',
                             )
                         ],
-
+                        [
+                        'id'       => 'left-sticker',
+                        'type'     => 'text',
+                        'title'    => __( 'Sticker left', KC_DOMAIN ),
+                        'compiler' => 'true',
+                        // Can be set to false to allow any media type, or can also be set to any mime type.
+                        'desc'     => __( 'Left sticker.', KC_DOMAIN ),
+                        'subtitle' => __( 'Left sticker.', KC_DOMAIN  ),
+                        'hint'     => array(
+                            //'title'     => '',
+                            'content' => 'This is a <b>hint</b> tool-tip for the webFonts field.<br/><br/>Add any HTML based text you like here.',
+                            )
+                        ],
+                        [
+                        'id'       => 'right-sticker',
+                        'type'     => 'text',
+                        'title'    => __( 'Sticker right', KC_DOMAIN ),
+                        'compiler' => 'true',
+                        // Can be set to false to allow any media type, or can also be set to any mime type.
+                        'desc'     => __( 'Giờ làm việc.', KC_DOMAIN ),
+                        'subtitle' => __( 'Làm việc từ 8h-12h.', KC_DOMAIN  ),
+                        'hint'     => array(
+                            //'title'     => '',
+                            'content' => 'This is a <b>hint</b> tool-tip for the webFonts field.<br/><br/>Add any HTML based text you like here.',
+                            )
+                        ],
 
                     )
                 );

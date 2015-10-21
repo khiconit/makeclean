@@ -45,7 +45,7 @@ if( !function_exists('vc_service_function')){
                 $output         .=  '<div class="service-box-inner">';
                 $output         .=   '<h4>'.get_the_title($post->ID ).'</h4>';
                 if($style==2)$output         .=   '<p>'.the_excerpt_max_charlength($content,$count_word).'</p>';
-                $output         .=   '<a title="'.$button_title.'" href="'.post_permalink( $post->ID ).'">view details</a>';
+                $output         .=   '<a title="'.$button_title.'" href="'.post_permalink( $post->ID ).'">'.$button_title.'</a>';
                 $output         .=    '</div></div></div>';
             endforeach;
     }

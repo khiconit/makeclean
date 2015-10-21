@@ -3,5 +3,4 @@
     <?php dynamic_sidebar('woo-sidebar' ); ?>
 <?php else: ?>
 <?php endif; ?>
-
-            </div><!-- col-md-3 /- -->
+</div><!-- col-md-3 /- -->

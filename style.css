@@ -1008,7 +1008,7 @@ p,
     position: relative;
     top: 15px;
     margin-left: 40px;
-    float: right;
+    float: inherit;
 }
 
 .statistics-box h4 {
@@ -1197,11 +1197,12 @@ p,
     width: 85%;
     float: right;
     margin-top: 0;
-    padding: 15px 20px 0 75px;
+    padding: 15px 20px 15px 75px;
 }
 
 .services-style2 .service-box-inner h4 {
     margin: 20px 0;
+    height: 40px;
 }
 
 .services-style2 .service-box-inner a {
@@ -1775,16 +1776,17 @@ p,
     color: #2196f3;
     margin-top: 18px;
     display: inline-block;
-    max-width: 45%;
+    max-width: 49.5%;
 }
 
 .product-box span a {
     margin-right: 0;
-    font-size: 11px;
+    font-size: 9px;
     box-shadow: 0 4px 0 rgba(243,231,33,0.25);
     border: 2px solid #f5ea40;
     outline: none;
-    width: 55%;
+    margin-top: 15px;
+    width: 50%;
 }
 
 .product-box:hover span a {
@@ -2519,7 +2521,7 @@ p,
 }
 .cart-main .woocommerce .quantity .qty,
 .cart-main .woocommerce .quantity .btn {
-    width: 31px;
+    width: 55px;
     height: 30px;
     padding: 0;
     line-height: 30px;
@@ -2538,7 +2540,7 @@ p,
 }
 
 .actions .coupon {
-    margin-top: 50px;
+    /*margin-top: 50px;*/
 }
 
 .actions .coupon input[type="text"] {
@@ -2668,7 +2670,7 @@ p,
 .main-contact-form input,
 .main-contact-form label,
 .main-contact-form textarea {
-    width: 96%;
+    width: 100%;
     color: #333;
     font-size: 12px;
     margin-bottom: 10px;
@@ -2905,8 +2907,12 @@ p,
     padding:15px 18px 14px 18px;
 }
 img.attachment-shop_catalog.wp-post-image {
-     max-height: 224px;
-    max-width: 270px !important;
+        max-height: 218px;
+    min-height: 217px;
+    max-width: 213px !important;
+
+    margin: Auto;
+    display: inherit;
 }
 .woocommerce span.onsale{
     z-index: 999;
@@ -2984,8 +2990,8 @@ ul.nav.nav-tabs {
 }
 .actions .coupon input[type="submit"] {
     background-color: rgba(0, 0, 0, 0);
-    background: #EBE9EB;
-    padding: 10px 5px 10px 6px;
+    background: #fff;
+    padding: 9px 4px 9px 6px;
 }
 .recent_post img{
        width: 100%;
@@ -3103,11 +3109,12 @@ input#submit:hover{
     font-size: 11px;
     font-weight: normal;
 }
-.cart {
+.cart>span {
     font-weight: bold;
     text-shadow: 28px;
     text-shadow: 1px 1px #2196F3;
     color: #2196F3;
+    cursor: pointer;
 }
 .last-new-home > a> img {
     max-width: 278px;
@@ -3116,4 +3123,66 @@ input#submit:hover{
 .team-box>img {
     max-width: 253px;
     min-height: 253px;
+}
+.current_page_item>a {
+    color: yellow !important;
+}
+.recent_post a {
+    color: rgba(255, 0, 0, 0);
+}
+.entry-cover a {
+    color: rgba(255, 255, 255, 0);
+}
+.current-menu-item>a {
+    color: yellow !important;
+}
+.active >a {
+    color: yellow !important;
+}
+ul.wc-tabs.nav.nav-tabs li a {
+    color: white !important;
+}
+ul.wc-tabs.nav.nav-tabs li.active a {
+    color: yellow !important;
+}
+.modal-body .main-contact-form{
+        margin-top: 0;
+}
+.modal-body .main-contact-form textarea{
+    width: 47% !important;
+}
+.product_meta> span {
+    display: block;
+    margin-top: 10px;
+}
+div#review_form {
+    padding-left: 85px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.price  ins .amount {
+    color: blue;
+}
+.price del .amount {
+    color: #2196f3;
+}
+li[id^="li-comment"] .comment-box{
+    margin-top: 0px;
+    padding: 0px 36px 36px 0px;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
+    border: 2px solid #2196f3;
+        border-radius: 0px;
+
+
+}
+.woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message{
+    font-size: 9px;
+    font-weight: bold;
+}
+.actions input[name="update_cart"] {
+    background: #fff;
+}
+.cart {
+    cursor: pointer;
 }

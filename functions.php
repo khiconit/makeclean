@@ -30,7 +30,7 @@ if( !function_exists('author_link')){
 }
 if( !function_exists('makeclean_theme_setup')){
     function makeclean_theme_setup(){
-        $languages_folder           =       THEME_URL. '/languages_folder';
+        $languages_folder           =       THEME_URL. '/languages';
         load_theme_textdomain( KC_DOMAIN, $languages_folder );
 
         /* Tự động thêm link rss lên <head>*/
@@ -135,12 +135,12 @@ if ( !function_exists('makeclean_logo')){
           if( $makeclean_theme_option['logo-on']  ==0 ): ?>
            <div class="col-md-3 col-sm-4">
                 <?php
-                    printf( '<h1> <a href="%1$s" title="%2$s"> %3$s  </a></h1> ',esc_url( home_url( '/' ) ),get_bloginfo('description' ), $makeclean_theme_option['text-logo'])  ;
+                    printf( '<h1> <a href="%1$s" title="%2$s"> %3$s  </a></h1> ',esc_url( get_home_url() ),get_bloginfo('description' ), $makeclean_theme_option['text-logo'])  ;
                 ?>
             </div>
         <?php else: ?>
                     <div class="col-md-3 col-sm-4">
-                        <a title="<?php bloginfo('description' ); ?>" href="<?php home_url() ?>"><img src="<?php echo $makeclean_theme_option['logo-image']['url']  ?>" alt="<?php bloginfo('description' ); ?>" /></a>
+                        <a title="<?php bloginfo('description' ); ?>" href="<?php esc_url(get_home_url() ) ?>"><img src="<?php echo $makeclean_theme_option['logo-image']['url']  ?>" alt="<?php bloginfo('description' ); ?>" /></a>
                     </div>
         <?php endif; ?>
 
@@ -460,66 +460,66 @@ if ( ! function_exists( 'makeclean_content_entry' ) ) {
         return  $string.$dots;
     }
 }
-if( !function_exists('get_the_post_thumbnail')){
-    function get_the_post_thumbnail( $post_id = null, $size = 'post-thumbnail', $attr = '' ) {
-    $post_id = ( null === $post_id ) ? get_the_ID() : $post_id;
-    $post_thumbnail_id = get_post_thumbnail_id( $post_id );
+// if( !function_exists('get_the_post_thumbnail')){
+//     function get_the_post_thumbnail( $post_id = null, $size = 'post-thumbnail', $attr = '' ) {
+//     $post_id = ( null === $post_id ) ? get_the_ID() : $post_id;
+//     $post_thumbnail_id = get_post_thumbnail_id( $post_id );
 
-    /**
-     * Filter the post thumbnail size.
-     *
-     * @since 2.9.0
-     *
-     * @param string $size The post thumbnail size.
-     */
-    $size = apply_filters( 'post_thumbnail_size', $size );
+//     /**
+//      * Filter the post thumbnail size.
+//      *
+//      * @since 2.9.0
+//      *
+//      * @param string $size The post thumbnail size.
+//      */
+//     $size = apply_filters( 'post_thumbnail_size', $size );
 
-    if ( $post_thumbnail_id ) {
+//     if ( $post_thumbnail_id ) {
 
-        /**
-         * Fires before fetching the post thumbnail HTML.
-         *
-         * Provides "just in time" filtering of all filters in wp_get_attachment_image().
-         *
-         * @since 2.9.0
-         *
-         * @param string $post_id           The post ID.
-         * @param string $post_thumbnail_id The post thumbnail ID.
-         * @param string $size              The post thumbnail size.
-         */
-        do_action( 'begin_fetch_post_thumbnail_html', $post_id, $post_thumbnail_id, $size );
-        if ( in_the_loop() )
-            update_post_thumbnail_cache();
-        $html = wp_get_attachment_url( $post_thumbnail_id, $size, false, $attr );
+//         /**
+//          * Fires before fetching the post thumbnail HTML.
+//          *
+//          * Provides "just in time" filtering of all filters in wp_get_attachment_image().
+//          *
+//          * @since 2.9.0
+//          *
+//          * @param string $post_id           The post ID.
+//          * @param string $post_thumbnail_id The post thumbnail ID.
+//          * @param string $size              The post thumbnail size.
+//          */
+//         do_action( 'begin_fetch_post_thumbnail_html', $post_id, $post_thumbnail_id, $size );
+//         if ( in_the_loop() )
+//             update_post_thumbnail_cache();
+//         $html = wp_get_attachment_url( $post_thumbnail_id, $size, false, $attr );
 
-        /**
-         * Fires after fetching the post thumbnail HTML.
-         *
-         * @since 2.9.0
-         *
-         * @param string $post_id           The post ID.
-         * @param string $post_thumbnail_id The post thumbnail ID.
-         * @param string $size              The post thumbnail size.
-         */
-        do_action( 'end_fetch_post_thumbnail_html', $post_id, $post_thumbnail_id, $size );
+//         /**
+//          * Fires after fetching the post thumbnail HTML.
+//          *
+//          * @since 2.9.0
+//          *
+//          * @param string $post_id           The post ID.
+//          * @param string $post_thumbnail_id The post thumbnail ID.
+//          * @param string $size              The post thumbnail size.
+//          */
+//         do_action( 'end_fetch_post_thumbnail_html', $post_id, $post_thumbnail_id, $size );
 
-    } else {
-        $html = '';
-    }
-    /**
-     * Filter the post thumbnail HTML.
-     *
-     * @since 2.9.0
-     *
-     * @param string $html              The post thumbnail HTML.
-     * @param string $post_id           The post ID.
-     * @param string $post_thumbnail_id The post thumbnail ID.
-     * @param string $size              The post thumbnail size.
-     * @param string $attr              Query string of attributes.
-     */
-    return apply_filters( 'post_thumbnail_html', $html, $post_id, $post_thumbnail_id, $size, $attr );
-}
-}
+//     } else {
+//         $html = '';
+//     }
+//     /**
+//      * Filter the post thumbnail HTML.
+//      *
+//      * @since 2.9.0
+//      *
+//      * @param string $html              The post thumbnail HTML.
+//      * @param string $post_id           The post ID.
+//      * @param string $post_thumbnail_id The post thumbnail ID.
+//      * @param string $size              The post thumbnail size.
+//      * @param string $attr              Query string of attributes.
+//      */
+//     return apply_filters( 'post_thumbnail_html', $html, $post_id, $post_thumbnail_id, $size, $attr );
+// }
+// }
 if ( !function_exists('makeclean_copyright')){
     function makeclean_copyright(){
         global $makeclean_theme_option;
@@ -667,7 +667,7 @@ if(!function_exists('contact_from_modal')){
                     <?php echo (do_shortcode($makeclean_theme_option['popup-contact'] )); ?>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><?php _e('Close',KC_DOMAIN)?></button>
 
                 </div>
             </div>
@@ -702,3 +702,174 @@ if( !function_exists('makeclean_cart_quantity')){
 <?php    }
 }
 
+
+if(!function_exists('left_sticker')){
+    function left_sticker(){
+        global $makeclean_theme_option;
+        if(isset($makeclean_theme_option['left-sticker'])){
+            echo $makeclean_theme_option['left-sticker'];
+        }
+    }
+}
+if(!function_exists('right_sticker')){
+    function right_sticker(){
+        global $makeclean_theme_option;
+        if(isset($makeclean_theme_option['right-sticker'])){
+            echo $makeclean_theme_option['right-sticker'];
+        }
+    }
+}
+if(!function_exists('custom_comment_form')){
+    function custom_comment_form(){
+        $commenter = wp_get_current_commenter();
+        $req = get_option( 'require_name_email' );
+        $aria_req = ( $req ? " aria-required='true'" : '' );
+        $fields =  array(
+
+          'author' =>
+            '<p class="comment-form-author"><label for="author">' . __( 'Name', 'domainreference' ) . '</label> ' .
+            ( $req ? '<span class="required">*</span>' : '' ) .
+            '<input id="author" name="author"  class="form-control" type="text" value="' . esc_attr( $commenter['comment_author'] ) .
+            '" size="30"' . $aria_req . ' /></p>',
+
+          'email' =>
+            '<p class="comment-form-email"><label for="email">' . __( 'Email', 'domainreference' ) . '</label> ' .
+            ( $req ? '<span class="required">*</span>' : '' ) .
+            '<input id="email" name="email" class="form-control" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) .
+            '" size="30"' . $aria_req . ' /></p>',
+
+          'url' =>
+            '<p class="comment-form-url"><label for="url">' . __( 'Website', 'domainreference' ) . '</label>' .
+            '<input id="url" name="url" class="form-control" type="text" value="' . esc_attr( $commenter['comment_author_url'] ) .
+            '" size="30" /></p>',
+        );
+        $post_id = get_the_ID();
+        $user = wp_get_current_user();
+        $user_identity = $user->exists() ? $user->display_name : '';
+        $args = array(
+          'id_form'           => 'commentform',
+          'class_form'        =>  'comment-form form-horizontal',
+          'id_submit'         => 'submit',
+          'class_submit'      => 'submit',
+          'name_submit'       => 'submit',
+          'title_reply'       => __( 'Leave a Reply' ),
+          'title_reply_to'    => __( 'Leave a Reply to %s' ),
+          'cancel_reply_link' => __( 'Cancel Reply' ),
+          'label_submit'      => __( 'Post Comment' ),
+          'format'            => 'xhtml',
+
+          'comment_field' =>  '<p class="comment-form-comment"><label for="comment">' . _x( 'Bình luận', 'noun' ) .
+            '</label><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" class="form-control">' .
+            '</textarea></p>',
+
+          'must_log_in' => '<p class="must-log-in">' .
+            sprintf(
+              __( 'You must be <a href="%s">logged in</a> to post a comment.' ),
+              wp_login_url( apply_filters( 'the_permalink', get_permalink() ) )
+            ) . '</p>',
+
+          'logged_in_as' => '<p class="logged-in-as">' .
+            sprintf(
+            __( 'Logged in as <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Log out?</a>' ),
+              admin_url( 'profile.php' ),
+              $user_identity,
+              wp_logout_url( apply_filters( 'the_permalink', get_permalink( ) ) )
+            ) . '</p>',
+
+          'comment_notes_before' => '<p class="comment-notes">' .
+            __( 'Your email address will not be published.' ) . ( $req ? 'required="required"': '' ) .
+            '</p>',
+
+          'comment_notes_after' => '<p class="form-allowed-tags">' .
+            sprintf(
+              __( 'You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes: %s' ),
+              ' <code>' . allowed_tags() . '</code>'
+            ) . '</p>',
+
+          'fields' => apply_filters( 'comment_form_default_fields', $fields ),
+        );
+    comment_form( $args, $post_id );
+    }
+}
+if(!function_exists('show_comment')){
+    function show_comment(){
+        $args = array(
+                                'author_email' => '',
+                                'include_unapproved' => '',
+                                'fields' => '',
+                                'ID' => '',
+                                'order' => 'DESC',
+                                'post_author__in' => '',
+                                'post_author__not_in' => '',
+                                'post_ID' => get_the_ID(), // ignored (use post_id instead)
+                                'post_id' => get_the_ID(),
+                                'post_author' => '',
+                                'post_name' => '',
+                                'post_parent' => '',
+                                'post_status' => '',
+                                'post_type' => '',
+                                'status' => 'all',
+                                'type' => '',
+                                    'type__in' => '',
+                                    'type__not_in' => '',
+                                'user_id' => '',
+                                'search' => '',
+                                'count' => false,
+
+                            );
+                         $comment =   get_comments( $args ) ;
+
+                            foreach($comment as $cmt):
+                         ?>
+                         <div class="comment-box">
+                                <div class="col-md-2 col-xs-4">
+                                    <img src="<?php  echo get_stylesheet_directory_uri();?>/assets/images/messages.png" alt="comment-box">
+                                </div>
+                                <div class="col-md-10 col-xs-8">
+                                    <div class="vcard author post-author">
+                                        <h3 class="comment-user-name"><?php  echo $cmt->comment_author ?></h3>
+                                        <h4 class="comment-date pull-right"><?php  echo $cmt->comment_date ?></h4>
+                                    </div>
+                                    <p class="comments-desc">
+                                        <?php  echo $cmt->comment_content ?>
+                                    </p>
+
+                                </div>
+                            </div>
+                            <?php
+                            endforeach;
+    }
+}
+if(!function_exists('wc_add_to_cart_message')){
+    function wc_add_to_cart_message( $product_id ) {
+
+        if ( is_array( $product_id ) ) {
+
+            $titles = array();
+
+            foreach ( $product_id as $id ) {
+                $titles[] = get_the_title( $id );
+            }
+
+            $added_text = sprintf( __( 'Added &quot;%s&quot; to your cart.', 'woocommerce' ), join( __( '&quot; and &quot;', 'woocommerce' ), array_filter( array_merge( array( join( '&quot;, &quot;', array_slice( $titles, 0, -1 ) ) ), array_slice( $titles, -1 ) ) ) ) );
+
+        } else {
+            $added_text = sprintf( __( '&quot;%s&quot; was successfully added to your cart.', 'woocommerce' ), get_the_title( $product_id ) );
+        }
+
+        // Output success messages
+        if ( get_option( 'woocommerce_cart_redirect_after_add' ) == 'yes' ) :
+
+            $return_to  = apply_filters( 'woocommerce_continue_shopping_redirect', wp_get_referer() ? wp_get_referer() : home_url() );
+
+            $message    = sprintf('<a href="%s" class="button wc-forward">%s</a> %s', $return_to, __( 'Continue Shopping', 'woocommerce' ), $added_text );
+
+        else :
+
+            $message    = sprintf('<a href="%s" class="button wc-forward">%s</a> %s', get_permalink( wc_get_page_id( 'cart' ) ), __( 'View Cart', 'woocommerce' ), $added_text );
+
+        endif;
+
+        wc_add_notice( apply_filters( 'wc_add_to_cart_message', $message, $product_id ) );
+    }
+}

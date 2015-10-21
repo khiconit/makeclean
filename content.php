@@ -5,8 +5,8 @@
                                 <?php the_post_thumbnail( 'full' );  ?>
                             <?php endif; ?>
                             <span class="posted-on">
-                                <span class="like"><?php rand(1,100) ?></span>
-                                <span class="date"><?php get_the_date('d/m/Y'); ?></span>
+                                <span class="like"><?php echo rand(1,100) ?></span>
+                                <span class="date"><?php echo  get_the_date('d/m/Y'); ?></span>
                             </span>
                             </div>
                             <div class="blog-box-inner">

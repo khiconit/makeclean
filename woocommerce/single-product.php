@@ -19,7 +19,7 @@ get_header( 'shop' ); ?>
 		<!-- container -->
 		<div class="container">
 			<div class="row">
-			<?php get_sidebar( 'details'); ?>
+			<?php get_sidebar( 'shop'); ?>
 <div class="col-md-9 single-product-detail">
 
 	<?php

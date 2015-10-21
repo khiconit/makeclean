@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2015-10-08 17:18+0700\n"
-"PO-Revision-Date: 2015-10-08 17:18+0700\n"
+"PO-Revision-Date: 2015-10-20 11:53+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -22,19 +22,19 @@ msgstr ""
 #: archive.php:28 category.php:28 content-gallery.php:58 content-image.php:18
 #: content.php:18 core/visual_composer.php:824 search.php:31
 msgid "BY"
-msgstr ""
+msgstr "Mua"
 
 #: archive.php:44 category.php:44 search.php:47
 msgid "Read more"
-msgstr ""
+msgstr "Xem thêm"
 
 #: content-gallery.php:62 content-image.php:22 content.php:22
 msgid "Like"
-msgstr ""
+msgstr "Thích"
 
 #: core/barebones-config-legacy.php:55
 msgid "Home Settings"
-msgstr ""
+msgstr "Cài đặt trang chủ"
 
 #: core/barebones-config-legacy.php:56
 msgid ""
@@ -350,11 +350,11 @@ msgstr ""
 
 #: core/options.php:47
 msgid "General"
-msgstr ""
+msgstr "Chung"
 
 #: core/options.php:48
 msgid "Setting General."
-msgstr ""
+msgstr "Cài đặt chung"
 
 #: core/options.php:54
 msgid "Logo favicon"
@@ -362,7 +362,7 @@ msgstr ""
 
 #: core/options.php:55
 msgid "Choose your favicon"
-msgstr ""
+msgstr "Chọn Favicon của bạn"
 
 #: core/options.php:62 core/visual_composer.php:407
 msgid "Header"
@@ -370,77 +370,77 @@ msgstr ""
 
 #: core/options.php:63
 msgid "Option for header"
-msgstr ""
+msgstr "Tùy chọn đầu trang"
 
 #: core/options.php:71
 msgid "Enable images logo"
-msgstr ""
+msgstr "Bật logo website"
 
 #: core/options.php:74
 msgid "Do you want display logo on website."
-msgstr ""
+msgstr "Bạn có muốn bật logo website"
 
 #: core/options.php:75
 msgid "Display logo on website."
-msgstr ""
+msgstr "Hiển thị logo trên website"
 
 #: core/options.php:76 core/options.php:212 core/options.php:240
 #: core/options.php:255
 msgid "Enabled"
-msgstr ""
+msgstr "Bật "
 
 #: core/options.php:77 core/options.php:213 core/options.php:241
 #: core/options.php:256
 msgid "Disabled"
-msgstr ""
+msgstr "Vô hiệu hóa"
 
 #: core/options.php:85
 msgid "Logo Images"
-msgstr ""
+msgstr "Bật logo website"
 
 #: core/options.php:86 core/options.php:91
 msgid "Choose your logo"
-msgstr ""
+msgstr "Chọn Favicon của bạn"
 
 #: core/options.php:90
 msgid "Logo Images for mobile response"
-msgstr ""
+msgstr "Bật logo website"
 
 #: core/options.php:96
 msgid "Text logo"
-msgstr ""
+msgstr "Văn bản logo"
 
 #: core/options.php:99
 msgid "Display text on logo header."
-msgstr ""
+msgstr "Nội Dung Đầu Trang"
 
 #: core/options.php:100
 msgid "Display text on logo header if Logo images is off."
-msgstr ""
+msgstr "Hiển thị chữ nếu Không có ảnh"
 
 #: core/options.php:109
 msgid "Text description contact phone"
-msgstr ""
+msgstr "Mô tả cho số điện thoại liên hệ"
 
 #: core/options.php:112 core/options.php:171
 msgid "Text contact phone."
-msgstr ""
+msgstr "Số điện thoại liên hệ"
 
 #: core/options.php:113 core/options.php:172
 msgid "Description for text contact phone."
-msgstr ""
+msgstr "Mô tả cho số điện thoại liên hệ"
 
 #: core/options.php:122
 msgid "Phone number"
-msgstr ""
+msgstr "Số điện thoại"
 
 #: core/options.php:125
 msgid "Phone number your company."
-msgstr ""
+msgstr "Điện thoại công ty bạn"
 
 #: core/options.php:126
 msgid "Phone number."
-msgstr ""
+msgstr "Số điện thoại"
 
 #: core/options.php:138
 msgid "Toypography"
@@ -532,7 +532,7 @@ msgstr ""
 
 #: core/options.php:320 core/options.php:321
 msgid "Make Clean Theme Option"
-msgstr ""
+msgstr "Tùy chọn"
 
 #: core/visual_composer.php:2
 msgid "Same window"
@@ -570,11 +570,11 @@ msgstr ""
 #: widgets/class-wc-widget-recently-viewed.php:30
 #: widgets/class-wc-widget-top-rated-products.php:32
 msgid "Title"
-msgstr ""
+msgstr "Tiêu đề"
 
 #: core/visual_composer.php:73
 msgid "Image"
-msgstr ""
+msgstr "Ảnh"
 
 #: core/visual_composer.php:76 core/visual_composer.php:220
 #: core/visual_composer.php:268 core/visual_composer.php:290
@@ -1122,7 +1122,7 @@ msgstr ""
 
 #: header.php:83
 msgid "free instant quote"
-msgstr ""
+msgstr "Hãy góp ý cho chúng tôi"
 
 #: search.php:7
 #, php-format
@@ -1153,7 +1153,7 @@ msgstr ""
 
 #: widgets/class-wc-widget-cart.php:31
 msgid "Cart"
-msgstr ""
+msgstr "Giỏ hàng"
 
 #: widgets/class-wc-widget-cart.php:37
 msgid "Hide if cart is empty"
@@ -1830,7 +1830,7 @@ msgstr ""
 
 #: woocommerce/content-product.php:78
 msgid "View details"
-msgstr ""
+msgstr "Chi tiết"
 
 #: woocommerce/emails/admin-cancelled-order.php:13
 #: woocommerce/emails/plain/admin-cancelled-order.php:15

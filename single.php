@@ -14,14 +14,13 @@
                     <div class="col-md-8 col-sm-7 no-padding">
                     <?php endif;  ?>
                         <?php get_template_part('content',get_post_format( ) ); ?>
-                    <div class="col-md-9 col-sm-9 col-xs-12">
                     <div class="comment-area">
-                    <h2>comments (<?php  wp_count_comments(the_ID()) ?>)</h2>
-                    <?php comment_form( );
-                     ?>
+                    <h2>comments (<?php    echo wp_count_comments( $post->ID )->approved; ?>)</h2>
+                        <?php  show_comment(); ?>
+                    <?php custom_comment_form( ); ?>
                     </div>
 
-                </div>
+
              </div>
                 <div class="col-md-1 col-sm-1"></div>
                 <?php get_sidebar('blog' ); ?>
