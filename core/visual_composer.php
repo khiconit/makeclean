@@ -45,7 +45,8 @@ if( !function_exists('vc_service_function')){
                 $output         .=  '<div class="service-box-inner">';
                 $output         .=   '<h4>'.get_the_title($post->ID ).'</h4>';
                 if($style==2)$output         .=   '<p>'.the_excerpt_max_charlength($content,$count_word).'</p>';
-                $output         .=   '<a title="'.$button_title.'" href="'.post_permalink( $post->ID ).'">'.$button_title.'</a>';
+
+                $output         .=   '<a title="xx'.$button_title.'" href="'.post_permalink( $post->ID ).'">'.$button_title.'</a>';
                 $output         .=    '</div></div></div>';
             endforeach;
     }
@@ -113,7 +114,7 @@ vc_map( array(
             'type'              => 'textfield',
             'heading'           => __( 'Title  display on button', KC_DOMAIN ),
             'param_name'        => 'button_title',
-            'value'             => 'View details',
+            'value'             => '',
             'description'       => __( 'Enter title button.', KC_DOMAIN )
         ),
     ),
@@ -230,7 +231,7 @@ vc_map( array(
             'type'              =>  'textfield',
             'heading'           =>  __('Button left',KC_DOMAIN),
             'param_name'        =>  'button_left',
-            'value'             =>  'About more',
+            'value'             =>  '',
             'description'       =>  'Enter your button left name'
             ),
         array(
@@ -243,7 +244,7 @@ vc_map( array(
             'type'              =>  'textfield',
             'heading'           =>  __('Button right',KC_DOMAIN),
             'param_name'        =>  'button_right',
-            'value'             =>  'Wordkers',
+            'value'             =>  '',
             'description'       =>  'Enter your button right name'
             ),
         array(
