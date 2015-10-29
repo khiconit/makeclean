@@ -1033,8 +1033,8 @@ p,
 }
 
 .blog-box-inner {
-    width: 46%;
-    margin-top: 40px;
+    width: 45.5%;
+    margin-top: 20px;
     float: left;
 }
 
@@ -3185,4 +3185,32 @@ li[id^="li-comment"] .comment-box{
 }
 .cart {
     cursor: pointer;
+}
+.welcome-box{
+    height: 184px;
+}
+.product-category {
+    width: 100%;
+}
+.entry-cover.pull-right.last-new-home {
+    width: 50%;
+}
+.last-new-home > a> img {
+    max-width: 100%;
+    height: 298px;
+}
+.services-style2 .service-box-inner p {
+    line-height: 20px;
+    height: 65px;
+    overflow-y: hidden;
+}
+.services-style2 .service-box-inner h4 {
+    margin: 20px 0px;
+    height: 45px;
+    overflow: hidden;
+    font-size: 1em;
+}
+.entry-header {
+    height: 50px;
+    overflow-y: hidden;
 }

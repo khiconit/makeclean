@@ -707,7 +707,7 @@ if ( !function_exists('vc_statistics_function')){
         else:
             $background         =       'background:'.$background_color;
         endif;
-        $output                 .=      '<div id="statistics-section" class="statistics-section ow-background '.$class_statistics.'" style="'.$background.'; background-repeat: no-repeat;">';
+        $output                 .=      '<div id="statistics-section" class="statistics-section ow-background '.$class_statistics.'" style="'.$background.'; background-size: 100% 100%;">';
         $output                 .=      '<div class="container">';
         $count                  =count($list_statistics);
         if($count == 0) $count =1;
@@ -1213,7 +1213,7 @@ if( !function_exists('vc_featured_product_func')){
        ), $atts ) );
     $tabs               =   vc_param_group_parse_atts($list_tabs);
 
-    $output              =   '<div class="col-md-12 col-sm-11 ">';
+    $output              =   '<div class="col-md-12 col-sm-12 ">';
     $output             .=   '<div class="product-category"> ';
     $output             .=   '<ul class="nav nav-tabs" role="tablist">';
 
@@ -1324,7 +1324,7 @@ if( !function_exists('vc_categories_product_func')){
         if( empty($term))    return '';
         $slug           =   $term->slug;
         $output         ='';
-        $output         .=  '<div class="col-md-12 col-sm-11">';
+        $output         .=  '<div class="col-md-12 col-sm-12">';
         $output         .=  '<div class="product-category">';
         $output         .=  '<h4>'.$title.'</h4> </div>';
         $output         .=  '<ul class="product-main row">';

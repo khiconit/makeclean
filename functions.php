@@ -181,7 +181,7 @@ if( !function_exists('makeclean_main_menu')){
                 'container_id' => 'bs-example-navbar-collapse-1',
                 'menu_class' => 'nav navbar-nav',
                 'menu_id' => '',
-                'items_wrap' => '<ul idx = "%1$s" id="test-menu" class = "%2$s">%3$s</ul>',
+                'items_wrap' => '<ul id = "%1$s" id="test-menu" class = "%2$s">%3$s</ul>',
 
                 'walker'          => new Makeclean_Walker_menu(),
             );
